@@ -41,7 +41,6 @@
 
 .container {
     max-width: 1320px;
-    width: 100%;
     margin-right: auto;
     margin-left: auto;
     padding-left: 12px;
@@ -857,16 +856,13 @@ nav {
     margin-top: 15px;
 }
 
-@media (max-width:1600px) {
-    .xl-25 {
-        width: 25%;
-    }
-
-}
-
 @media (min-width:992px) {
     .sec-4-heading {
         max-width: 338px;
+    }
+
+    .xl-25 {
+        width: 25%;
     }
 
     .lg-pl-35 {
@@ -896,10 +892,10 @@ nav {
         cursor: pointer;
         justify-content: space-between;
         z-index: 2;
-        position: fixed;
+        position: absolute;
         /* left: 93%; */
         right: 3%;
-        top: 3%;
+        top: 32%;
     }
 
     label[for="menubar"] span {
